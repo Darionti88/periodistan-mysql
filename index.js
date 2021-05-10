@@ -7,13 +7,14 @@ const PORT = 3001
 
 const db = mysql.createPool(
     {
-        host:"bxkktrjsg3toq8hysfqj-mysql.services.clever-cloud.com",
-        user:"usdtqs4s7yu4hmsp",
-        password:"k097yRTCxrnVG5HJwJUW",
+        host:"us-cdbr-east-03.cleardb.com",
+        user:"b7ed0185b87f5a",
+        password:"5002566e",
         port: 3306,
-        database:"bxkktrjsg3toq8hysfqj"
+        database:"heroku_0f86c69fadc41f1"
     }
 )
+
 
 app.use(cors())
 app.use(express.json())
