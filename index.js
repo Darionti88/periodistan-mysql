@@ -7,11 +7,11 @@ const PORT = 3001
 
 const db = mysql.createPool(
     {
-        host:"us-cdbr-east-03.cleardb.com",
-        user:"b6427cadc2b780",
-        password:"28ab92b9",
+        host:"bxkktrjsg3toq8hysfqj-mysql.services.clever-cloud.com",
+        user:"usdtqs4s7yu4hmsp",
+        password:"k097yRTCxrnVG5HJwJUW",
         port: 3306,
-        database:"heroku_ea1cc0df1d1775e"
+        database:"bxkktrjsg3toq8hysfqj"
     }
 )
 
